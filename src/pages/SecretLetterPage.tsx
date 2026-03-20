@@ -17,22 +17,22 @@ const polaroids: PolaroidItem[] = [
   {
     id: 1,
     image: 'https://files.catbox.moe/utgqfg.jpg',
-    song: 'Senja Sudut Kota',
-    artist: 'Samuel Cipta',
+    song: 'Risk it All',
+    artist: 'Bruno Mars',
     audio: 'https://files.catbox.moe/hde6rr.mp3'
   },
   {
     id: 2,
     image: 'https://files.catbox.moe/nodi0u.jpg',
-    song: 'Kota Ini Tak Sama Tanpamu',
-    artist: 'Nadhif Basamalah',
+    song: 'Pretty',
+    artist: 'JVKE',
     audio: 'https://files.catbox.moe/zkuvy0.mp4'
   },
   {
     id: 3,
     image: 'https://files.catbox.moe/4bqiez.jpg',
-    song: 'Everything U Are',
-    artist: 'Hindia',
+    song: 'Thank Your 4 Loving Me',
+    artist: 'Paul Partohap',
     audio: 'https://files.catbox.moe/29qkzp.mp3'
   }
 ];
@@ -41,12 +41,19 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `Happy birthday to You!!
-
-First, thank you for your time buat buka gift sederhana dari aku ini (and i hope u like it hehe)...
-
-Happy birthday Febri.
-With all my heart, Aull.`;
+  const fullText = `Hai cantik
+‎
+‎I just wanted to send this to say thank you so much. Thank you for having such a big heart and for giving me another chance. I know trust isn’t easy to rebuild, but the fact that you’re still willing to accept me and believe in 'us' means the world to me.
+‎
+‎I also want to say I’m so sorry about the other day. I really regret disappearing and not checking in when I was so busy. I realize now that no matter how tied up I am, I should never have let you feel alone or left you wondering. I’m sorry for making you worry—that was never my intention.
+‎
+‎And one more thing, I’m so sorry for overlooking the little things that actually matter to you. I know those things mean a lot, and I regret not being sensitive enough. I’m going to try harder to pay more attention to the small details about us from now on.
+‎
+‎One thing you should know: I love you so, so much. My love for you is way bigger than any exhaustion or busy schedule. You are my priority, and I don't want to lose you just because of my lack of communication.
+‎
+‎Thank you for being so patient with me and all my flaws. I promise I’ll do better at keeping you updated and being more attentive to you.
+‎
+‎Thank you for staying and not giving up on me. I truly love you that much.`;
 
   useEffect(() => {
     let currentIndex = 0;
