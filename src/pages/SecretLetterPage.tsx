@@ -56,20 +56,20 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
 ‎Thank you for staying and not giving up on me. I truly love you that much.`;
 
   useEffect(() => {
-    let currentIndex = 0;
+  let currentIndex = 0;
 
-    const typingInterval = setInterval(() => {
-      if (currentIndex < fullText.length) {
-        setDisplayedText(fullText.slice(0, currentIndex + 1));
-        currentIndex++;
-      } else {
-        clearInterval(typingInterval);
-        setTimeout(() => {
-          setShowFinalMessage(true);
-        }, 2000);
-      }
-    }, 30);
-
+  const typingInterval = setInterval(() => {
+    if (currentIndex < fullText.length) {
+      setDisplayedText(fullText.slice(0, currentIndex + 1));
+      currentIndex++;
+    } else {
+      clearInterval(typingInterval);
+      setTimeout(() => {
+        setShowFinalMessage(true);
+      }, 2000);
+    }
+  }, 30);
+    
     return () => clearInterval(typingInterval);
   }, []);
 
@@ -241,11 +241,6 @@ export default SecretLetterPage;        setTimeout(() => {
               transition={{ duration: 1.5, repeat: Infinity }}
             >
               <div className="flex gap-2 justify-center">
-
-
-
-
-
               </div>
             </motion.div>
 
