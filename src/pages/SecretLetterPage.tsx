@@ -16,21 +16,21 @@ interface PolaroidItem {
 const polaroids: PolaroidItem[] = [
   {
     id: 1,
-    image: 'https://files.catbox.moe/utgqfg.jpg',
+    image: 'https://files.catbox.moe/1i76ee.jpg',
     song: 'Risk it All',
     artist: 'Bruno Mars',
     audio: 'https://files.catbox.moe/hde6rr.mp3'
   },
   {
     id: 2,
-    image: 'https://files.catbox.moe/nodi0u.jpg',
+    image: 'https://files.catbox.moe/lp4zxt.jpg',
     song: 'Pretty',
     artist: 'JVKE',
     audio: 'https://files.catbox.moe/zkuvy0.mp4'
   },
   {
     id: 3,
-    image: 'https://files.catbox.moe/4bqiez.jpg',
+    image: 'https://files.catbox.moe/i55pxc.jpg',
     song: 'Thank Your 4 Loving Me',
     artist: 'Paul Partohap',
     audio: 'https://files.catbox.moe/29qkzp.mp3'
