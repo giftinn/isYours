@@ -19,21 +19,21 @@ const polaroids: PolaroidItem[] = [
     image: 'https://files.catbox.moe/1i76ee.jpg',
     song: 'Risk it All',
     artist: 'Bruno Mars',
-    audio: 'https://files.catbox.moe/hde6rr.mp3'
+    audio: 'https://files.catbox.moe/8sh553.mp3'
   },
   {
     id: 2,
     image: 'https://files.catbox.moe/lp4zxt.jpg',
     song: 'Pretty',
     artist: 'JVKE',
-    audio: 'https://files.catbox.moe/zkuvy0.mp4'
+    audio: 'https://files.catbox.moe/a32wxg.mp4'
   },
   {
     id: 3,
     image: 'https://files.catbox.moe/i55pxc.jpg',
     song: 'Thank Your 4 Loving Me',
     artist: 'Paul Partohap',
-    audio: 'https://files.catbox.moe/29qkzp.mp3'
+    audio: 'https://files.catbox.moe/t7rx1l.mp3'
   }
 ];
 
