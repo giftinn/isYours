@@ -10,7 +10,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
   const [password, setPassword] = useState('');
   const [showError, setShowError] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-  const correctPassword = '120223';
+  const correctPassword = '07122025';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -55,7 +55,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
             type="text"
             value={password}
             onChange={handleInputChange}
-            placeholder="DDMMYY"
+            placeholder="DDMMYYYY"
             maxLength={8}
             className="w-full px-4 sm:px-6 py-3 sm:py-4 text-center text-lg sm:text-xl font-semibold border-2 border-pink-300 rounded-xl sm:rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-4 focus:ring-pink-200 transition-all duration-300 bg-white/90 backdrop-blur-sm shadow-lg hover:shadow-xl"
             style={{ fontFamily: 'monospace', letterSpacing: '0.15em' }}
