@@ -23,14 +23,14 @@ const polaroids: PolaroidItem[] = [
   },
   {
     id: 2,
-    image: 'https://files.catbox.moe/lp4zxt.jpg',
+    image: 'https://files.catbox.moe/i55pxc.jpg',
     song: 'Pretty',
     artist: 'JVKE',
     audio: 'https://files.catbox.moe/51ms8c.mp3'
   },
   {
     id: 3,
-    image: 'https://files.catbox.moe/i55pxc.jpg',
+    image: 'https://files.catbox.moe/lp4zxt.jpg',
     song: 'Thank Your 4 Loving Me',
     artist: 'Paul Partohap',
     audio: 'https://files.catbox.moe/t7rx1l.mp3'
