@@ -60,7 +60,6 @@ With all my heart, Aull.`;
         setTimeout(() => {
           setShowFinalMessage(true);
         }, 2000);
-      }
     }, 30);
 
     return () => clearInterval(typingInterval);
