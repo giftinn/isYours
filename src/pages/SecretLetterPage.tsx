@@ -67,6 +67,7 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
         setTimeout(() => {
           setShowFinalMessage(true);
         }, 2000);
+      }
     }, 30);
 
     return () => clearInterval(typingInterval);
